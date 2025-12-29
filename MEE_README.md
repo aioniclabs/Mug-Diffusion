@@ -7,7 +7,7 @@ This document provides instructions on how to build and run the Mug Diffusion pr
 1.  **Docker**: Ensure Docker is installed and running on your system.
 2.  **NVIDIA GPU**: A compatible NVIDIA GPU is required.
 3.  **NVIDIA Container Toolkit**: You must have the NVIDIA Container Toolkit installed to allow Docker to access your GPU. [Installation Guide](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html).
-4.  **Model Files**: Download the `ckpt.zip` file containing the model weights. Create a `models` directory in the project root if it doesn't exist. Unzip the file and place the `ckpt` folder inside the `models` directory. The final structure must be `models/ckpt/model.ckpt` and `models/ckpt/model.yaml`.
+4.  **Model Files**: Download the model weights from [this Dropbox link](https://www.dropbox.com/scl/fi/2pk0jv5za27qbp08pn72t/ckpt.zip?rlkey=oqx4o2usck0p7nn8o72fgaut4&st=bfhywdmq&dl=0). Create a `models` directory in the project root if it doesn't exist. Unzip the downloaded file and place the resulting `ckpt` folder inside the `models` directory. The final structure must be `models/ckpt/model.ckpt` and `models/ckpt/model.yaml`.
 
 ## 1. The Dockerfile
 

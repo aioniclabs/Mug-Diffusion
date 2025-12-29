@@ -49,5 +49,3 @@ docker run --rm --gpus all \
 ```
 
 The final `.osz` file (a zip archive containing the `.osu` file and audio) will be saved in your local `output` directory.
-
-```
